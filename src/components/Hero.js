@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div className="hero">
       <h1>
-        KEEPERS
+        ISSAC's
         <br />
-        OF THE
+        BAND
         <br />
-        GARDEN
+        LOL
       </h1>
     </div>
   );

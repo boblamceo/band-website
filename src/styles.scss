@@ -3,7 +3,7 @@ $spotify-green: #2ebd59;
 
 body {
   background-color: black;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -40,7 +40,7 @@ body {
     margin-top: 0;
   }
 
-  @if $theme == 'black' {
+  @if $theme == "black" {
     background: black;
     color: white;
     button {
@@ -60,11 +60,11 @@ body {
 }
 
 .site-section-black {
-  @include site-section('black');
+  @include site-section("black");
 }
 
 .site-section-white {
-  @include site-section('white');
+  @include site-section("white");
 }
 
 .section-container {
@@ -127,13 +127,14 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  background: center url('./images/KotG BG B&W.png');
+  background: center url("./images/empty.jpeg");
   letter-spacing: 5px;
 
   h1 {
     display: inline;
-    text-shadow: -5px -5px 5px rgba(0, 0, 0, 0.5), 5px -5px 5px rgba(0, 0, 0, 0.5),
-      -5px 5px 5px rgba(0, 0, 0, 0.5), 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: -5px -5px 5px rgba(0, 0, 0, 0.5),
+      5px -5px 5px rgba(0, 0, 0, 0.5), -5px 5px 5px rgba(0, 0, 0, 0.5),
+      5px 5px 5px rgba(0, 0, 0, 0.5);
   }
 }
 

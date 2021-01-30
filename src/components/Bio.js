@@ -1,26 +1,28 @@
-import React from 'react';
+import React from "react";
 
 const Bio = () => {
   return (
-    <div className='site-section-black'>
-      <div className='section-container'>
+    <div className="site-section-black">
+      <div className="section-container">
         <h2>Bio</h2>
-        <div className='bio'>
+        <div className="bio">
           <p>
-            Keepers of the Garden is the artist name for Bristol UK based singer/songwriting and
-            musician Andrew Bingham.
+            Vestibulum nec mauris dui. Morbi nibh neque, tincidunt a nisl ac,
+            hendrerit accumsan felis. Maecenas dignissim metus in dui commodo,
+            in facilisis dui placerat.
             <br />
             <br />
-            The journey started with a passion for producing electronic dance music, which later
-            evolved into an alternative blues, rock style. The rock element was heavily influenced
-            by artists such as The Black Keys, Hanni El Khatib, Kasabian, Incubus, Gomez and The
-            Bluetones.
+            Vestibulum nec mauris dui. Morbi nibh neque, tincidunt a nisl ac,
+            hendrerit accumsan felis. Maecenas dignissim metus in dui commodo,
+            in facilisis dui placerat.Vestibulum nec mauris dui. Morbi nibh
+            neque, tincidunt a nisl ac, hendrerit accumsan felis. Maecenas
             <br />
             <br />
-            Follow me on Spotify to be notified as soon a the new single ‘Give a Little Love’ gets
-            released later this year
+            Vestibulum nec mauris dui. Morbi nibh neque, tincidunt a nisl ac,
+            hendrerit accumsan felis. Maecenas dignissim metus in dui commodo,
+            in facilisis dui placerat.
           </p>
-          <img src={require('../images/bio-photo.jpg')} alt='' />
+          <img src={require("../images/empty.jpeg")} alt="" />
         </div>
       </div>
     </div>

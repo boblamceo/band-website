@@ -1,26 +1,26 @@
-import React from 'react';
-import FeaturedSong from './FeaturedSong';
+import React from "react";
+import FeaturedSong from "./FeaturedSong";
 
 const FeaturedSongList = () => {
   return (
-    <div className='featured-song-list'>
+    <div className="featured-song-list">
       <FeaturedSong
-        songTitle='Set the World on Fire'
-        releaseDate='1st July 2019'
-        theme='black'
-        image={require('../images/set-the-world-on-fire-cover.png')}
+        songTitle="ABC"
+        releaseDate="30th January 2021"
+        theme="black"
+        image={require("../images/empty.jpeg")}
       />
       <FeaturedSong
-        songTitle='Haunted'
-        releaseDate='1st July 2019'
-        theme='white'
-        image={require('../images/haunted-cover.png')}
+        songTitle="Ba ba black sheep"
+        releaseDate="30th January 2021"
+        theme="white"
+        image={require("../images/empty.jpeg")}
       />
       <FeaturedSong
-        songTitle='Call My Name'
-        releaseDate='1st July 2019'
-        theme='black'
-        image={require('../images/call-my-name-cover.jpg')}
+        songTitle="Twinkle twinkle little star"
+        releaseDate="30th January 2021"
+        theme="black"
+        image={require("../images/empty.jpeg")}
       />
     </div>
   );
